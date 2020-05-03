@@ -10,12 +10,6 @@ body {
   vertical-align: middle;
 }
 
-h1{
-  width: 100%;
-  text-align: center;
-  color: white;
-}
-
 header {
   height: 600px;
 }
@@ -34,19 +28,35 @@ nav .brand-logo img {
   margin-left: 48px;
 }
 
-header ul a{
-    color: grey;
+header ul a {
+  color: grey;
 }
 
 header nav ul {
-    height: 80px;
+  height: 80px;
 }
 
-.header-main-container{
-    width: 100%;
-    height: 520px;
-    background: linear-gradient(to bottom,rgb(177, 0, 200) 20%, rgb(55, 0, 119));
-    background-size: 100%;
+.header-main-container {
+  width: 100%;
+  height: 520px;
+  background: linear-gradient(to bottom, rgb(177, 0, 200) 20%, rgb(55, 0, 119));
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 0px 32px;
+}
+
+.header-main-container h2 {
+  color: wheat;
+  font-size: 28px;
+  max-width: 700px;
+  text-decoration: underline;
+  line-height: 32px;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 992px) {
