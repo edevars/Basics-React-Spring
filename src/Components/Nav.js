@@ -3,12 +3,16 @@ import logo from "../Images/logo.png";
 
 export const Nav = () => {
   return (
-    <nav>
-      <div class="nav-wrapper">
-        <a href="/" class="brand-logo valing-wrapper">
+    <nav className="container">
+      <div className="nav-wrapper">
+        <a href="/" className="brand-logo">
           <img className="responsive-img" src={logo} alt="logo" />
         </a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+        <ul
+          id="nav-mobile"
+          className="right hide-on-med-and-down valign-wrapper"
+        >
           <li>
             <a href="/">Home</a>
           </li>
@@ -16,7 +20,7 @@ export const Nav = () => {
             <a href="/">Examples</a>
           </li>
           <li>
-            <a href="/">Github</a>
+            <a href="/" className="btn">Github</a>
           </li>
         </ul>
       </div>
