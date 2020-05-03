@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { App } from "./Components/App";
 import "materialize-css/dist/css/materialize.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <h1>Hello World</h1>
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
