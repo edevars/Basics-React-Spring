@@ -1,4 +1,5 @@
 import React from "react";
+import { DiGithubAlt } from "react-icons/di";
 import logo from "../Images/logo.png";
 
 export const Nav = () => {
@@ -19,8 +20,11 @@ export const Nav = () => {
           <li>
             <a href="/">Examples</a>
           </li>
-          <li>
-            <a href="/" className="btn">Github</a>
+          <li className="valign-wrapper">
+            <a href="https://www.react-spring.io/" target="blank" className="btn">
+              <DiGithubAlt style={{fontSize: "24px", marginRight: "12px"}}/>
+              Github
+            </a>
           </li>
         </ul>
       </div>
