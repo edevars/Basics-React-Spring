@@ -59,6 +59,24 @@ header nav ul {
   font-style: italic;
 }
 
+.search-box{
+  margin-bottom: 0;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-container .search-icon {
+  margin-right: 16px;
+}
+
+.example-title {
+  margin-top: 0px;
+}
+
 @media only screen and (max-width: 992px) {
   nav .brand-logo img {
     margin-left: 0;
