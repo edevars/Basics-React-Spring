@@ -1,14 +1,15 @@
 import React from "react";
-import { Header } from "./Header";
 import { IconContext } from "react-icons";
-import {HomePage} from "./HomePage";
+import { Header } from "./Header";
 
 
-export const App = () => {
+export const Layout = (props) => {
+  const { children } = props;
+
   return (
     <IconContext.Provider value={{ className: "react-icons" }}>
       <Header />
-      <HomePage />
+      {children}
     </IconContext.Provider>
   );
 };
