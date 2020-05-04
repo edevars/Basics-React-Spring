@@ -1,6 +1,6 @@
 import React from "react";
 import { DiGithubAlt } from "react-icons/di";
-import logo from "../Images/logo.png";
+import logo from "../../assets/Images/logo.png";
 
 export const Nav = () => {
   return (

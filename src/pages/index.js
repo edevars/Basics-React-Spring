@@ -4,7 +4,7 @@ import { Search } from "../Components/Search";
 import { Card } from "../Components/Card";
 
 const Home = () => (
-  <Layout>
+  <Layout title="Home">
     <main className="container">
       <section className="section">
         <Search />
