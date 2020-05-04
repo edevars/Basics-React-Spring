@@ -5,8 +5,8 @@ export const Banner = () => {
 
   const props = useSpring({
     opacity: 1,
-    from: { opacity: 0 },
-    config: { duration: 1000 },
+    from: { opacity: 0.1 },
+    config: { duration: 500 },
   });
   
   return (
