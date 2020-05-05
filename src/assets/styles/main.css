@@ -4,6 +4,7 @@ body {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
+  background-color: rgb(252, 243, 255);
 }
 
 .react-icons {
@@ -26,6 +27,7 @@ nav .brand-logo {
 
 nav .brand-logo img {
   margin-left: 48px;
+  height: 100px;
 }
 
 header ul a {
@@ -59,11 +61,11 @@ header nav ul {
   font-style: italic;
 }
 
-.search-box{
+.search-box {
   margin-bottom: 0;
 }
 
-.input-container{
+.input-container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -73,8 +75,20 @@ header nav ul {
   margin-right: 16px;
 }
 
-.example-title {
-  margin-top: 0px;
+.card .card-content .card-title {
+  font-weight: bold;
+}
+
+.card .card-reveal .card-title {
+  font-weight: bold;
+}
+
+.card-reveal {
+  color: white;
+}
+
+.sidenav-trigger i {
+  color: rgb(177, 0, 200);
 }
 
 @media only screen and (max-width: 992px) {
