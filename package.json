@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "gatsby": "^2.21.9",
+    "gatsby-plugin-manifest": "^2.4.1",
     "gatsby-plugin-react-helmet": "^3.3.0",
     "materialize-css": "^1.0.0-rc.2",
     "prop-types": "^15.7.2",
