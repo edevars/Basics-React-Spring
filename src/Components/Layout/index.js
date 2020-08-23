@@ -5,7 +5,7 @@ import { Header } from "./Header";
 import PropTypes from "prop-types";
 
 export const Layout = (props) => {
-  const { children, title } = props;
+  const { children, title, disableHeader } = props;
 
   return (
     <IconContext.Provider value={{ className: "react-icons" }}>
@@ -17,7 +17,7 @@ export const Layout = (props) => {
           rel="stylesheet"
         />
       </Helmet>
-      <Header />
+      <Header disableHeader={disableHeader} />
       {children}
     </IconContext.Provider>
   );

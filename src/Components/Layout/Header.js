@@ -2,11 +2,11 @@ import React from "react";
 import { Nav } from "./Nav";
 import { Banner } from "../Banner";
 
-export const Header = () => {
+export const Header = ({ disableHeader }) => {
   return (
     <header>
       <Nav />
-      <Banner />
+      {!disableHeader && <Banner />}
     </header>
   );
 };

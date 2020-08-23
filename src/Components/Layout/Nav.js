@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'gatsby'
 import { DiGithubAlt } from "react-icons/di";
 
 export const Nav = () => {
@@ -6,13 +7,13 @@ export const Nav = () => {
     <>
       <nav className="container">
         <div className="nav-wrapper">
-          <a href="/" className="brand-logo">
+          <Link to="/" className="brand-logo">
             <img
               className="responsive-img"
               src="https://i.imgur.com/153YmwC.png"
               alt="logo"
             />
-          </a>
+          </Link>
           <a data-target="mobile-demo" className="sidenav-trigger">
             <i className="material-icons" style={{ fontSize: 40 }}>
               menu
@@ -23,10 +24,10 @@ export const Nav = () => {
             className="right hide-on-med-and-down valign-wrapper"
           >
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/">Examples</a>
+              <Link to="/examples">Examples</Link>
             </li>
             <li className="valign-wrapper">
               <a
