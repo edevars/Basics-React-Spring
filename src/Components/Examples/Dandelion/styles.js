@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { animated } from 'react-spring';
 import { moonlights } from '../../../Animations/moonlights';
 import nightBackground from '../../../images/night.jpg'
 
@@ -10,7 +11,7 @@ export const CanvaFrame = styled.div`
     position: relative;
 `;
 
-export const BlueBackground = styled.div`
+export const BlueBackground = styled(animated.div)`
     width: 100%;
     height: 100%;
     background: url(${nightBackground});
@@ -19,7 +20,7 @@ export const BlueBackground = styled.div`
     z-index: 0;
 `
 
-export const FlatGrass = styled.div`
+export const FlatGrass = styled(animated.div)`
     width: 100%;
     height: 20px;
     background: #cff38b;
@@ -28,7 +29,7 @@ export const FlatGrass = styled.div`
     z-index: 2;
 `
 
-export const GrassBush = styled.img`
+export const GrassBush = styled(animated.img)`
     height: 100px;
     width: 100px;
     position: absolute;
@@ -37,7 +38,7 @@ export const GrassBush = styled.img`
     left: calc(50% - 50px);
 `
 
-export const DandelionImage = styled.img`
+export const DandelionImage = styled(animated.img)`
     width: 20%;
     position: absolute;
     bottom: 0;
