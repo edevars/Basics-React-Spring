@@ -1,7 +1,7 @@
 import React from 'react';
-import { CanvaFrame, BlueBackground, FlatGrass, GrassBush, Sun } from './styles'
+import { CanvaFrame, BlueBackground, FlatGrass, GrassBush,DandelionImage , Moon } from './styles'
 import SvgGrass from '../../../svg/grass.svg'
-import SvgSun from '../../../svg/sun.svg'
+import SvgDandelion from '../../../svg/dandelion.svg'
 
 export const Dandelion = () => {
     return (
@@ -9,7 +9,8 @@ export const Dandelion = () => {
             <BlueBackground />
             <FlatGrass />
             <GrassBush src={SvgGrass} />
-            <Sun src={SvgSun} />
+            <DandelionImage src={SvgDandelion}/>
+            <Moon />
         </CanvaFrame>);
 }
 
